@@ -58,7 +58,7 @@ rl.question('Путь к файлу: ', (answer) => {
     try {
         morph.init(`${answer}`);
     } catch {
-        console.log('Неверный путь!')
+        console.log('Неверный путь!') //
     }
     rl.close();
 });
